@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.nav-link {
+  @apply text-gray-600 font-semibold transition ease-out duration-500;
+}
+
+.link-icon {
+  @apply text-red-500;
+}
+
+.footer {
+  @apply text-center text-xs text-gray-600 mt-6 border border-gray-200 py-2;
+}
+
+.main {
+  @apply bg-gray-100 flex-1;
+}
+
+.page-heading {
+  @apply text-gray-700 font-bold text-center mt-2 px-2 py-1 text-xl;
+}
+
+.main-title {
+  @apply flex justify-center items-center min-h-full font-bold text-2xl tracking-wider transition duration-700 ease-in-out text-white;
+}
+
+.show-content {
+  @apply transition ease-out duration-700;
+}
+
+.heading-underline {
+  @apply bg-red-500 w-32 mx-auto;
+}
+
+.footer-link {
+  @apply text-red-500 py-1;
+}
+
+.social-icon {
+  @apply text-gray-600 cursor-pointer transform transition ease-out duration-700;
+}
+
+.current-page {
+  @apply transition ease-in duration-700 ml-1 border-2 border-gray-700;
+}
+
+.gallery-photo {
+  @apply w-1/2 m-auto cursor-pointer  transition duration-700 ease-in-out;
+}
+
+.photo-container {
+}
